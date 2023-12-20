@@ -1,4 +1,4 @@
-module github.com/coinbase/rosetta-sdk-go/types
+module github.com/yantao1995/rosetta-sdk-go/types
 
 go 1.18
 

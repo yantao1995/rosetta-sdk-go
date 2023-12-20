@@ -1,4 +1,4 @@
-module github.com/coinbase/rosetta-sdk-go
+module github.com/yantao1995/rosetta-sdk-go
 
 go 1.18
 
@@ -8,7 +8,7 @@ require (
 	github.com/btcsuite/btcd v0.22.1
 	github.com/cenkalti/backoff v2.2.1+incompatible
 	github.com/coinbase/kryptology v1.8.0
-	github.com/coinbase/rosetta-sdk-go/types v1.0.0
+	github.com/yantao1995/rosetta-sdk-go/types v1.0.0
 	github.com/dgraph-io/badger/v2 v2.2007.4
 	github.com/ethereum/go-ethereum v1.10.21
 	github.com/fatih/color v1.13.0
