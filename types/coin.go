@@ -18,6 +18,7 @@ package types
 
 // Coin Coin contains its unique identifier and the amount it represents.
 type Coin struct {
-	CoinIdentifier *CoinIdentifier `json:"coin_identifier"`
-	Amount         *Amount         `json:"amount"`
+	CoinIdentifier *CoinIdentifier        `json:"coin_identifier"`
+	Amount         *Amount                `json:"amount"`
+	Metadata       map[string]interface{} `json:"metadata,omitempty"`
 }
